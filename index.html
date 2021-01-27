@@ -72,10 +72,24 @@
         color: white;
     }
 
+    .profile-link {
+        color: black;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        align-self: center;
+    }
+
     #email {
         color: black;
         font-size: 18px;
         font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    @media only screen and (max-width: 940px; ) {
+        .projects-grid {
+            background-color: darkslategrey !important;
+        }
     }
 </style>
 
@@ -116,12 +130,16 @@
                 <p class="project-title">Technical Document</p>
             </a>
         </div>
+    </section>
 
-        <section id="Contact">
-            <h3 id="contact">Contact Me</h3>
-            <p>555-555-5555</p>
-            <p><a href="mailto: jrobi@s.com" id="email">Email Me</a></p>
-        </section>
+    <p><a href="https://github.com/julirobicho" target="_blank" class="profile-link" id="profile-link">Click here to
+            view my GitHub profile.</a></p>
+
+    <section id="Contact">
+        <h3 id="contact">Contact Me</h3>
+        <p>555-555-5555</p>
+        <p><a href="mailto: jrobi@s.com" id="email">Email Me</a></p>
+    </section>
 </body>
 
 </html>
